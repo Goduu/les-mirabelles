@@ -19,7 +19,7 @@ function generateStructuredData(lang: Locale, dictionary: Awaited<ReturnType<typ
       addressLocality: 'Le Tréport',
       addressRegion: 'Normandie',
       addressCountry: 'FR',
-      streetAddress: 'Les Mirabelles du Trèport',
+      streetAddress: 'Les Mirabelles du Tréport',
     },
     geo: {
       '@type': 'GeoCoordinates',
@@ -70,9 +70,9 @@ function generateStructuredData(lang: Locale, dictionary: Awaited<ReturnType<typ
 export default async function Home({
   params,
 }: {
-  params: Promise<{ lang: string }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { lang } = await params;
+  const { locale: lang } = await params;
 
   if (!hasLocale(lang)) {
     notFound();

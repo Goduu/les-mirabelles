@@ -18,32 +18,32 @@ const geistMono = Geist_Mono({
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lesmirabelles-treport.com';
 
 export async function generateStaticParams() {
-  return [{ lang: 'fr' }, { lang: 'en' }, { lang: 'de' }, { lang: 'nl' }];
+  return [{ locale: 'fr' }, { locale: 'en' }, { locale: 'de' }, { locale: 'nl' }];
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { lang } = await params;
+  const { locale: lang } = await params;
 
   if (!hasLocale(lang)) {
     return {
-      title: 'Les Mirabelles du Trèport',
+      title: 'Les Mirabelles du Tréport',
       description: 'Apartment rental in Le Tréport',
     };
   }
 
   const titles: Record<string, string> = {
-    fr: 'Les Mirabelles du Trèport - Appartement de vacances',
-    en: 'Les Mirabelles du Trèport - Vacation Apartment',
-    de: 'Les Mirabelles du Trèport - Ferienwohnung',
-    nl: 'Les Mirabelles du Trèport - Vakantieappartement',
+    fr: 'Les Mirabelles du Tréport - Appartement de vacances',
+    en: 'Les Mirabelles du Tréport - Vacation Apartment',
+    de: 'Les Mirabelles du Tréport - Ferienwohnung',
+    nl: 'Les Mirabelles du Tréport - Vakantieappartement',
   };
 
   const descriptions: Record<string, string> = {
-    fr: 'Appartement lumineux de 62 m² au pied de la plage au Trèport. Entièrement rénové et équipé.',
+    fr: 'Appartement lumineux de 62 m² au pied de la plage au Tréport. Entièrement rénové et équipé.',
     en: 'Bright 62 m² apartment at the foot of the beach in Le Tréport. Fully renovated and equipped.',
     de: 'Helle 62 m² Wohnung am Fuße des Strandes in Le Tréport. Vollständig renoviert und ausgestattet.',
     nl: 'Licht appartement van 62 m² aan de voet van het strand in Le Tréport. Volledig gerenoveerd en uitgerust.',
@@ -69,9 +69,9 @@ export async function generateMetadata({
     title: titles[lang] || titles.fr,
     description: descriptions[lang] || descriptions.fr,
     keywords: keywords[lang] || keywords.fr,
-    authors: [{ name: 'Les Mirabelles du Trèport' }],
-    creator: 'Les Mirabelles du Trèport',
-    publisher: 'Les Mirabelles du Trèport',
+    authors: [{ name: 'Les Mirabelles du Tréport' }],
+    creator: 'Les Mirabelles du Tréport',
+    publisher: 'Les Mirabelles du Tréport',
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: currentUrl,
@@ -81,7 +81,7 @@ export async function generateMetadata({
       title: titles[lang] || titles.fr,
       description: descriptions[lang] || descriptions.fr,
       url: currentUrl,
-      siteName: 'Les Mirabelles du Trèport',
+      siteName: 'Les Mirabelles du Tréport',
       locale: lang === 'fr' ? 'fr_FR' : lang === 'en' ? 'en_US' : lang === 'de' ? 'de_DE' : 'nl_NL',
       type: 'website',
       images: [
@@ -127,9 +127,9 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: string }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { lang } = await params;
+  const { locale: lang } = await params;
 
   if (!hasLocale(lang)) {
     notFound();

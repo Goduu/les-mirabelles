@@ -7,7 +7,7 @@ import type { Locale } from "@/i18n/locale";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { FaCouch, FaUtensils, FaBed, FaShower } from "react-icons/fa";
 
-type Dictionary = Awaited<ReturnType<typeof import('./[lang]/dictionaries').getDictionary>>;
+type Dictionary = Awaited<ReturnType<typeof import('./[locale]/dictionaries').getDictionary>>;
 
 interface ApartmentGalleryProps {
   airbnbUrl?: string;
