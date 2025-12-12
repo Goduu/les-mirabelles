@@ -1,0 +1,39 @@
+{
+  "apartment": {
+    "name": "Les Mirabelles du Trèport",
+    "description": "Appartement très lumineux de 62 m² au pied de la plage. Funiculaire à 2 min, proche du centre ville.",
+    "features": {
+      "livingSpace": "62 m²",
+      "kitchen": "Équipée",
+      "bedrooms": "2 chambres",
+      "bathroom": "Douche italienne"
+    }
+  },
+  "header": {
+    "bookButton": "Réserver sur Airbnb",
+    "bookButtonShort": "Réserver"
+  },
+  "description": {
+    "title": "Votre séjour parfait",
+    "text": "Découvrez le confort et l'élégance dans cet appartement magnifiquement conçu. Parfait pour les familles, les couples ou les voyageurs solo en quête d'un séjour mémorable."
+  },
+  "images": {
+    "alt": [
+      "Salon lumineux avec vue sur mer à l'appartement Les Mirabelles du Trèport",
+      "Cuisine moderne entièrement équipée dans l'appartement plage du Tréport",
+      "Chambre confortable avec lumière naturelle aux Mirabelles du Trèport",
+      "Espace de vie spacieux avec décoration élégante à l'appartement location Le Tréport",
+      "Salle de bain avec douche italienne dans l'appartement rénové Les Mirabelles du Trèport",
+      "Espace chambre cosy dans l'appartement de vacances 62m² près de la plage du Tréport",
+      "Zone cuisine bien équipée dans l'appartement lumineux Les Mirabelles du Trèport",
+      "Espace de vie relaxant avec équipements modernes à la location vacances Le Tréport",
+      "Beau design intérieur de l'appartement Les Mirabelles du Trèport près de la plage",
+      "Intérieur élégant de l'appartement montrant le confort à la propriété vacances Le Tréport"
+    ]
+  },
+  "languageSwitcher": {
+    "current": "Langue actuelle",
+    "switchTo": "Changer la langue"
+  }
+}
+

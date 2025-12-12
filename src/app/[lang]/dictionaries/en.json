@@ -1,0 +1,38 @@
+{
+    "apartment": {
+        "name": "Les Mirabelles du Trèport",
+        "description": "Bright 62 m² apartment at the foot of the beach. 2 min from funicular, close to city center.",
+        "features": {
+            "livingSpace": "62 m²",
+            "kitchen": "Equipped",
+            "bedrooms": "2 bedrooms",
+            "bathroom": "Italian shower"
+        }
+    },
+    "header": {
+        "bookButton": "Book on Airbnb",
+        "bookButtonShort": "Book"
+    },
+    "description": {
+        "title": "Your Perfect Vacation Getaway",
+        "text": "Experience comfort and elegance in this beautifully designed apartment. Perfect for families, couples, or solo travelers seeking a memorable stay."
+    },
+    "images": {
+        "alt": [
+            "Bright living room with sea view at Les Mirabelles du Trèport vacation apartment",
+            "Modern kitchen with full equipment in Le Tréport beach apartment",
+            "Comfortable bedroom with natural light in Les Mirabelles du Trèport",
+            "Spacious living area with elegant decor at Le Tréport rental apartment",
+            "Italian shower bathroom in renovated Les Mirabelles du Trèport apartment",
+            "Cozy bedroom space in 62m² vacation apartment near Le Tréport beach",
+            "Well-equipped kitchen area in bright Les Mirabelles du Trèport apartment",
+            "Relaxing living space with modern amenities at Le Tréport vacation rental",
+            "Beautiful interior design of Les Mirabelles du Trèport apartment near beach",
+            "Elegant apartment interior showcasing comfort at Le Tréport vacation property"
+        ]
+    },
+    "languageSwitcher": {
+        "current": "Current language",
+        "switchTo": "Switch language"
+    }
+}

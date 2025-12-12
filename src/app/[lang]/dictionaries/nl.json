@@ -1,0 +1,39 @@
+{
+  "apartment": {
+    "name": "Les Mirabelles du Trèport",
+    "description": "Zeer licht appartement van 62 m² aan de voet van het strand. Kabelbaan op 2 min, dicht bij stadscentrum.",
+    "features": {
+      "livingSpace": "62 m²",
+      "kitchen": "Uitgerust",
+      "bedrooms": "2 slaapkamers",
+      "bathroom": "Italiaanse douche"
+    }
+  },
+  "header": {
+    "bookButton": "Boek op Airbnb",
+    "bookButtonShort": "Boek"
+  },
+  "description": {
+    "title": "Uw perfecte vakantieverblijf",
+    "text": "Ervaar comfort en elegantie in dit prachtig ontworpen appartement. Perfect voor gezinnen, stellen of solo reizigers die een onvergetelijk verblijf zoeken."
+  },
+  "images": {
+    "alt": [
+      "Lichte woonkamer met uitzicht op zee in vakantieappartement Les Mirabelles du Trèport",
+      "Moderne keuken met volledige uitrusting in strandappartement Le Tréport",
+      "Gezellige slaapkamer met natuurlijk licht in Les Mirabelles du Trèport",
+      "Ruime woonruimte met elegante decoratie in huurappartement Le Tréport",
+      "Italiaanse douchebadkamer in gerenoveerd appartement Les Mirabelles du Trèport",
+      "Gezellige slaapkamerruimte in 62m² vakantieappartement bij strand Le Tréport",
+      "Goed uitgeruste keukenruimte in licht appartement Les Mirabelles du Trèport",
+      "Ontspannende woonruimte met moderne voorzieningen in vakantieverhuur Le Tréport",
+      "Mooi interieurontwerp van appartement Les Mirabelles du Trèport bij strand",
+      "Elegant appartement interieur toont comfort in vakantieverblijf Le Tréport"
+    ]
+  },
+  "languageSwitcher": {
+    "current": "Huidige taal",
+    "switchTo": "Taal wijzigen"
+  }
+}
+

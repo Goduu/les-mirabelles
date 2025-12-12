@@ -1,0 +1,38 @@
+{
+    "apartment": {
+        "name": "Les Mirabelles du Trèport",
+        "description": "Sehr helle 62 m² Wohnung am Fuße des Strandes. Standseilbahn 2 Min entfernt, nah am Stadtzentrum.",
+        "features": {
+            "livingSpace": "62 m²",
+            "kitchen": "Ausgestattet",
+            "bedrooms": "2 Schlafzimmer",
+            "bathroom": "Italienische Dusche"
+        }
+    },
+    "header": {
+        "bookButton": "Auf Airbnb buchen",
+        "bookButtonShort": "Buchen"
+    },
+    "description": {
+        "title": "Ihr perfekter Urlaub",
+        "text": "Erleben Sie Komfort und Eleganz in dieser wunderschön gestalteten Wohnung. Perfekt für Familien, Paare oder Alleinreisende, die einen unvergesslichen Aufenthalt suchen."
+    },
+    "images": {
+        "alt": [
+            "Helles Wohnzimmer mit Meerblick in der Ferienwohnung Les Mirabelles du Trèport",
+            "Moderne Küche mit vollständiger Ausstattung in der Strandwohnung Le Tréport",
+            "Gemütliches Schlafzimmer mit natürlichem Licht in Les Mirabelles du Trèport",
+            "Großzügiger Wohnbereich mit eleganter Einrichtung in der Mietwohnung Le Tréport",
+            "Italienische Duschbad im renovierten Apartment Les Mirabelles du Trèport",
+            "Gemütlicher Schlafbereich in der 62m² Ferienwohnung nahe dem Strand von Le Tréport",
+            "Gut ausgestatteter Küchenbereich in der hellen Wohnung Les Mirabelles du Trèport",
+            "Entspannender Wohnbereich mit modernen Annehmlichkeiten in der Ferienwohnung Le Tréport",
+            "Schönes Innenraumdesign der Wohnung Les Mirabelles du Trèport am Strand",
+            "Elegantes Apartment-Interieur zeigt Komfort in der Ferienimmobilie Le Tréport"
+        ]
+    },
+    "languageSwitcher": {
+        "current": "Aktuelle Sprache",
+        "switchTo": "Sprache wechseln"
+    }
+}
